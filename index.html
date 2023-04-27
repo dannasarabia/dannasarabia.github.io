@@ -3,12 +3,14 @@
 
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Danna Sarabia Altamirano</title>
     <link rel="stylesheet" type="text/css" href="reset.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora&family=Quattrocento&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a41741d52.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -16,10 +18,17 @@
     <div class="container">
 
       <header>
-        <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/savory.svg" class="logo">
+        <div class="wrapper">
+          <h1>Danna Sarabia Altamirano</h1>
+            <p class="bio"> I am a Criminology major with a minor in Integrated Security. This website holds my digital-media related projects!
+            </p>
+          <div class="buttonBox">
+            <a class="myButton" href="#projects">Go</a>
+          </div>
+        </div>
       </header>
 
-      <main>
+      <main id="projects">
         <div class="recipe a">
           <img src="images/Notion.jpg" alt="Notion Logo on a floating cube with whote background" />
           <h2>Cheating Notion's Complexity</h2>
@@ -44,7 +53,7 @@
           <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
           <p class="mins">3 Minute Watch</p>
           <p class="description">
-            PlaceHolder Text (Here will go the description for my video) </p>
+            This (link video here when done) short video really tested my editing skills as well as my creativity. I tried to encompass the idea that a regular day at university can be very repetitive and take time away from things you enjoy or do for your own pleasure. However, there are dozen of moments in the day where you can really slow things down for yourself and make time for those things that fill your cup back up so that you can keep going with your day. For me, that activity is crocheting as it forces me to slow down and focus on the task at hand and stops my mind from wandering!   </p>
         </div>
         <div class="recipe d">
           <img src="images/willow.jpg" alt="Willow trees surronding a lake with a wooden bridge in the center" />
@@ -52,30 +61,16 @@
           <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
           <p class="mins">11 Minute Read</p>
           <p class="description">
-            PlaceHolder Text (Here will go the description for my Creative Writing Fiction Peice - Maybe a small summary or what inspired me to write it?)</p>
-        </div>
-        <div class="recipe e">
-          <img src="images/woodenbox.jpg" alt="A wooden box with a small lock on a blue cloth" />
-          <h2>Things in a Box</h2>
-          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
-          <p class="mins">10 Minute Read</p>
-          <p class="description">
-            PlaceHolder Text: (Description of Creative Nonfiction Piece - Same info as Fiction peice will go here)</p>
-        </div>
-        <div class="recipe f">
-          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-6.png" />
-          <h2>Not sure what i'll put here yet</h2>
-          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
-          <p class="mins">10 mins</p>
-          <p class="description">
-            placeholder</p>
+            During my first semester, I took a creative writing course. One of our writing peices had to be a fiction peice since I am someone who had never written a fiction peice, I was very worried. The weekend before class, I had taken a walk through the Duck Pond where there are dozens of willow trees. The way their branches droop into the water is gorgeous to see any time of day. I knew I wanted my peice to be in the perspective of a willow tree I just didn't know where I wanted to take the story. The story took quite a dramatic turn here and there but for (anchor text) my first fiction peice, I am surprisingly proud.     </p>
         </div>
       </main>
-
       <footer>
        <div>
           <p class="copyright">© Danna Sarabia Altamirano 2022</p>
-       </div>
+          <ul class="icons">
+            <li><a href="https://www.linkedin.com/in/danna-sarabia-3b5882246/" target="_blank"><i class="fa-brands fa-linkedin"></a></i></li>
+              <li><a href="https://www.instagram.com/danna.sarabia/" target="_blank"><i class="fa-brands fa-instagram"></a></i></li>
+          </div>
       </footer>
 
     </div>
